@@ -1113,9 +1113,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	    <img src="./Abhee Aaria — Premium Apartments in Gunjur, Bangalore _ 2 &amp; 3 BHK Homes_files/plan.webp" alt="Location Map" class="img-fluid rounded shadow">
 	</a>
 
-    <section class="gallery-section bg-dark-deep py-5" id="gallery">
+  <!-- old gallery  -->
+
+    <!-- <section class="gallery-section bg-dark-deep py-5" id="gallery">
         <div class="container">
-            <!-- Section Heading -->
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-title wow-h2 fadeInUp" data-wow-delay=".3s" style="color:#ce9d4d;">
@@ -1128,7 +1129,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
             </div>
 
-            <!-- Unified Slider -->
             <div class="owl-carousel owl-theme mt-4 gallery-slider owl-loaded owl-drag" id="gallery2">
                 
                 
@@ -1200,8 +1200,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
                 </div></div></div></div><div class="owl-nav"><div class="owl-prev"><i class="fas fa-chevron-left fs-3 text-white"></i></div><div class="owl-next"><i class="fas fa-chevron-right fs-3 text-white"></i></div></div><div class="owl-dots"><div class="owl-dot"><span></span></div><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div></div></div>
 			
-
-            <!-- Video Section -->
             <div class="row mt-5">
                 <div class="col-12 col-lg-6 mb-4">
                     <iframe width="100%" height="315" style="border: 5px solid #ce9d4d; border-radius:10px;" src="./Abhee Aaria — Premium Apartments in Gunjur, Bangalore _ 2 &amp; 3 BHK Homes_files/4Tj3vrDup1s.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
@@ -1214,7 +1212,224 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
         </div>
         <div id="contact"></div>
-    </section>
+    </section> -->
+
+<!-- new gallery  -->
+
+
+<style>
+  .pg-gallery-section {
+            padding: 80px 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .pg-gallery-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .pg-gallery-title {
+            font-size: 3.5rem;
+            color: #c89b5f;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+
+        .pg-gallery-subtitle {
+            font-size: 1.1rem;
+            color: #333;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .pg-slider-container {
+            position: relative;
+            overflow: hidden;
+            padding: 0 60px;
+        }
+
+        .pg-slider-wrapper {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .pg-slide {
+            min-width: calc(33.333% - 20px);
+            margin: 0 10px;
+            flex-shrink: 0;
+        }
+
+        .pg-slide img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .pg-nav-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: white;
+            border: none;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+            z-index: 10;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            color: #333;
+        }
+
+        .pg-nav-btn:hover {
+            background: #c89b5f;
+            color: white;
+            transform: translateY(-50%) scale(1.1);
+        }
+
+        .pg-prev-btn {
+            left: 0;
+        }
+
+        .pg-next-btn {
+            right: 0;
+        }
+
+        @media (max-width: 1024px) {
+            .pg-slide {
+                min-width: calc(50% - 20px);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .pg-gallery-title {
+                font-size: 2.5rem;
+            }
+
+            .pg-gallery-subtitle {
+                font-size: 1rem;
+            }
+
+            .pg-slider-container {
+                padding: 0 50px;
+            }
+
+            .pg-slide {
+                min-width: calc(100% - 20px);
+            }
+
+            .pg-nav-btn {
+                width: 40px;
+                height: 40px;
+                font-size: 16px;
+            }
+        }
+</style>
+
+<section class="pg-gallery-section">
+  <div class="pg-gallery-header">
+      <h2 class="pg-gallery-title">Project Gallery</h2>
+      <p class="pg-gallery-subtitle">
+          Step into our gallery and witness the breathtaking beauty of Abhee Aaria's architectural marvels and serene surroundings
+      </p>
+  </div>
+
+  <div class="pg-slider-container">
+      <button class="pg-nav-btn pg-prev-btn" onclick="pgMoveSlide(-1)">‹</button>
+      
+      <div class="pg-slider-wrapper" id="pgSliderWrapper">
+          <div class="pg-slide">
+              <img src="./Abhee Aaria — Premium Apartments in Gunjur, Bangalore _ 2 &amp; 3 BHK Homes_files/g1.png" alt="Building Exterior">
+          </div>
+          <div class="pg-slide">
+              <img src="./Abhee Aaria — Premium Apartments in Gunjur, Bangalore _ 2 &amp; 3 BHK Homes_files/g2.png" alt="Garden Landscape">
+          </div>
+          <div class="pg-slide">
+              <img src="./Abhee Aaria — Premium Apartments in Gunjur, Bangalore _ 2 &amp; 3 BHK Homes_files/g3.png" alt="Entrance View">
+          </div>
+          <div class="pg-slide">
+              <img src="./Abhee Aaria — Premium Apartments in Gunjur, Bangalore _ 2 &amp; 3 BHK Homes_files/g4.png" alt="Tower View">
+          </div>
+          <div class="pg-slide">
+              <img src="./Abhee Aaria — Premium Apartments in Gunjur, Bangalore _ 2 &amp; 3 BHK Homes_files/g5.png" alt="Poolside">
+          </div>
+          <div class="pg-slide">
+              <img src="./Abhee Aaria — Premium Apartments in Gunjur, Bangalore _ 2 &amp; 3 BHK Homes_files/g6.png" alt="Architecture Detail">
+          </div>
+          <div class="pg-slide">
+              <img src="./Abhee Aaria — Premium Apartments in Gunjur, Bangalore _ 2 &amp; 3 BHK Homes_files/g7.png" alt="Garden Landscape">
+          </div>
+          <div class="pg-slide">
+              <img src="./Abhee Aaria — Premium Apartments in Gunjur, Bangalore _ 2 &amp; 3 BHK Homes_files/g2.png" alt="Entrance View">
+          </div>
+          <div class="pg-slide">
+              <img src="./Abhee Aaria — Premium Apartments in Gunjur, Bangalore _ 2 &amp; 3 BHK Homes_files/g3.png" alt="Tower View">
+          </div>
+          <div class="pg-slide">
+              <img src="./Abhee Aaria — Premium Apartments in Gunjur, Bangalore _ 2 &amp; 3 BHK Homes_files/g5.png" alt="Poolside">
+          </div>
+          <div class="pg-slide">
+              <img src="./Abhee Aaria — Premium Apartments in Gunjur, Bangalore _ 2 &amp; 3 BHK Homes_files/g1.png" alt="Architecture Detail">
+          </div>
+      </div>
+
+      <button class="pg-nav-btn pg-next-btn" onclick="pgMoveSlide(1)">›</button>
+  </div>
+</section>
+
+<script>
+  let pgCurrentIndex = 0;
+  const pgSliderWrapper = document.getElementById('pgSliderWrapper');
+  const pgSlides = document.querySelectorAll('.pg-slide');
+  let pgSlidesPerView = 3;
+
+  function pgUpdateSlidesPerView() {
+      if (window.innerWidth <= 768) {
+          pgSlidesPerView = 1;
+      } else if (window.innerWidth <= 1024) {
+          pgSlidesPerView = 2;
+      } else {
+          pgSlidesPerView = 3;
+      }
+  }
+
+  function pgMoveSlide(direction) {
+      pgUpdateSlidesPerView();
+      const pgMaxIndex = pgSlides.length - pgSlidesPerView;
+      
+      pgCurrentIndex += direction;
+      
+      if (pgCurrentIndex < 0) {
+          pgCurrentIndex = 0;
+      } else if (pgCurrentIndex > pgMaxIndex) {
+          pgCurrentIndex = pgMaxIndex;
+      }
+      
+      const pgSlideWidth = pgSlides[0].offsetWidth + 20;
+      pgSliderWrapper.style.transform = `translateX(-${pgCurrentIndex * pgSlideWidth}px)`;
+  }
+
+  window.addEventListener('resize', () => {
+      pgUpdateSlidesPerView();
+      pgCurrentIndex = 0;
+      pgSliderWrapper.style.transform = 'translateX(0)';
+  });
+
+  pgUpdateSlidesPerView();
+</script>
+
+
+
+
+
 
 
     <!-- Reach Out Section -->
