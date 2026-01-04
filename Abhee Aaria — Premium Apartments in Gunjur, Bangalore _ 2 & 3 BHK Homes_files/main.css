@@ -86,7 +86,7 @@ START: Theme Default CSS
   --tj-color-common-black: #161616;
   --tj-color-heading-primary: #343a40;
   --tj-color-text-body: #000000;
-  --tj-color-theme-primary: #ce9d4d;
+  --tj-color-theme-primary: #07633c;
   --tj-color-theme-bg-dark: #ffffff;
   --tj-color-theme-bg-dark-2: #0e1013;
   --tj-color-theme-bg-dark-light: #ffffff;
@@ -655,7 +655,7 @@ START: Theme Header CSS
 }
 
 .header.header__sticky {
-  background: linear-gradient(135deg, rgb(0, 0, 0), #ce9d4d);
+  background: linear-gradient(135deg, #02321e, #07633c);
   border-bottom: 1px solid #2b2c30;
   position: fixed;
   left: 0;
@@ -1403,7 +1403,7 @@ only screen and (min-width: 992px) and (max-width: 1199px),
 
 .top-btn {
   padding-left: 30px !important;
-  background: #ce9d4d;
+  background: #07633c;
   padding-right: 30px !important;
   color: #fff !important;
 }
@@ -1431,7 +1431,7 @@ only screen and (min-width: 992px) and (max-width: 1199px),
   margin: 0;
   font-family: 'Roboto', sans-serif;
   color: #FFFFF0;
-  background-color: #ce9d4d;
+  background-color: #07633c;
   text-transform: uppercase;
   font-size: 25px;
   letter-spacing: 1px;
@@ -7845,7 +7845,7 @@ START: Theme Scroll CSS
 }
 
 .enquire_now-box button[name="submit"] {
-  background-color: #ce9d4d;
+  background-color: #07633c;
   cursor: pointer;
   color: #000;
   font-size: 20px;
@@ -7862,14 +7862,14 @@ START: Theme Scroll CSS
 
 .enquire_now-box-wab {
   width: 50%;
-  background: linear-gradient(135deg, rgb(68, 59, 45), #ce9d4d);
+  background: linear-gradient(135deg, rgb(68, 59, 45), #07633c);
   z-index: 5;
   position: relative;
 }
 
 .enquire_now-box-fab {
   width: 100%;
-  background: linear-gradient(135deg, rgb(68, 59, 45), #ce9d4d);
+  background: linear-gradient(135deg, rgb(68, 59, 45), #07633c);
   z-index: 5;
   position: relative;
 }
@@ -8131,7 +8131,7 @@ START: Theme Scroll CSS
 }
 
 .download-btn {
-  background: #ce9d4d;
+  background: #07633c;
   color: #fff;
   border: none;
   padding: 12px 20px;
@@ -8176,7 +8176,7 @@ START: Theme Scroll CSS
 }
 
 .submit-btn {
-  background: #ce9d4d;
+  background: #07633c;
   border: none;
   color: #fff;
   width: 100%;
@@ -8208,7 +8208,7 @@ START: Theme Scroll CSS
 /* Why Choose Us Styling */
 .why-choose-us {
   padding: 80px 0;
-  background: linear-gradient(135deg, rgb(68, 59, 45), #ce9d4d);
+  background: linear-gradient(135deg, rgb(68, 59, 45), #07633c);
   /* color: #fff; */
   /* font-family: 'Poppins', sans-serif; */
 }
@@ -8256,7 +8256,7 @@ START: Theme Scroll CSS
   width: 70px;
   height: 70px;
   margin: 0 auto 20px;
-  background: #ce9d4d;
+  background: #07633c;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -8302,7 +8302,7 @@ START: Theme Scroll CSS
   display: block;
   width: 60px;
   height: 3px;
-  background: #ce9d4d;
+  background: #07633c;
   margin: 10px auto 0;
 }
 
@@ -8332,7 +8332,7 @@ START: Theme Scroll CSS
 
 .fp-tabs .nav-link.active,
 .fp-tabs .nav-link:hover {
-  background: #ce9d4d;
+  background: #07633c;
   color: #1a1a1a;
 }
 
@@ -8420,12 +8420,12 @@ START: Theme Scroll CSS
     transform: scale(1.05);
 }
 .gallery-filter .active {
-    background-color: #ce9d4d !important;
+    background-color: #07633c !important;
     color: #fff !important;
 }
 
   .form-input {
-  background: linear-gradient(135deg, rgb(68, 59, 45), #ce9d4d);
+  background: linear-gradient(135deg, rgb(68, 59, 45), #07633c);
         color: #fff;
         border: 1px solid #444;
         border-radius: 8px;
@@ -8434,7 +8434,7 @@ START: Theme Scroll CSS
     }
 
     .form-input:focus {
-        border-color: #ce9d4d;
+        border-color: #07633c;
         box-shadow: 0 0 10px rgba(206, 157, 77, 0.5);
         outline: none;
     }
@@ -8572,12 +8572,12 @@ START: Theme Scroll CSS
 #leadModal .modal-title {
     font-size: 24px;
     font-weight: 600;
-    color: #ce9d4d; /* gold color to match theme */
+    color: #07633c; /* gold color to match theme */
 }
 
 /* Close button */
 #leadModal .btn-close {
-    background-color: #ce9d4d;
+    background-color: #07633c;
     border-radius: 50%;
     width: 30px;
     height: 30px;
@@ -8585,7 +8585,7 @@ START: Theme Scroll CSS
 }
 
 #leadModal .btn-close:hover {
-    background-color: #b88b3f;
+    background-color: #033b24;
 }
 
 /* Form fields */
@@ -8598,7 +8598,7 @@ START: Theme Scroll CSS
 }
 
 #leadModal .form-control:focus {
-    border-color: #ce9d4d;
+    border-color: #07633c;
     box-shadow: 0 0 8px rgba(206, 157, 77, 0.4);
 }
 
@@ -8616,17 +8616,18 @@ START: Theme Scroll CSS
 
 /* Submit button */
 #leadModal .btn-warning {
-    background-color: #ce9d4d;
+    background-color: #07633c;
     border: none;
     padding: 12px;
     font-size: 16px;
     font-weight: 600;
     border-radius: 8px;
     transition: all 0.3s;
+    color: #fff;
 }
 
 #leadModal .btn-warning:hover {
-    background-color: #b88b3f;
+    background-color: #033b24;
 }
 
 /* Responsive adjustments */
@@ -8652,7 +8653,7 @@ START: Theme Scroll CSS
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, rgb(68, 59, 45), #ce9d4d);
+  background: linear-gradient(135deg, rgb(68, 59, 45), #07633c);
   color: white;
   text-align: center;
   font-family: 'Poppins', sans-serif;
@@ -8683,7 +8684,7 @@ START: Theme Scroll CSS
   display: inline-block;
   padding: 12px 25px;
   background: #fff;
-  color: #b88b3f;
+  color: #033b24;
   font-weight: bold;
   font-size: 1rem;
   text-decoration: none;
@@ -8692,7 +8693,7 @@ START: Theme Scroll CSS
 }
 
 .back-home-btn:hover {
-  background: #b88b3f;
+  background: #033b24;
   color: #fff;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
