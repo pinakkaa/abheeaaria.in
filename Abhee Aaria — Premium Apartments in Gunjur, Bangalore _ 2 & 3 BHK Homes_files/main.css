@@ -3242,7 +3242,7 @@ START: Theme Counter CSS
 ----------------------------------------*/
 .counter-section {
   background-color: var(--tj-color-theme-bg-dark-light);
-  padding: 105px 0 95px 0;
+  padding: 0 0 95px 0;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -8238,7 +8238,7 @@ START: Theme Scroll CSS
 }
 
 .choose-item {
-  background: #fbe5b7;
+  background: #fff;
     padding: 30px 20px;
   border-radius: 15px;
   text-align: center;
